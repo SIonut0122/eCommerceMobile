@@ -1,0 +1,213 @@
+
+
+%title-style {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	border-left: solid white;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 10px 0 10px 20px;
+}
+
+@media screen and (max-width:499.5px) {
+	.acc_first_descr,
+	.acc_sec_descr {
+		font-size: 20px !important;
+	}
+	.acc_third_img_div {
+		height: 250px !important;
+		width: 600px !important;
+		background-size: 140% 100% !important;
+		background-position: 50% 90%;
+	}
+}
+
+@media screen and (min-width:500px) and (max-width:850px) {
+	.acc_third_img_div {
+		height: 350px !important;
+		width: 800px !important;
+		background-size: 120% 100% !important;
+		background-position: 50% 90% !important;
+	}
+}
+
+@media screen and (max-width:700px) {
+	.acc_first_img {
+		height: 300px !important;
+		width: 330px !important;
+	}
+	.acc_sec_img {
+		height: 350px !important;
+		width: 430px !important;
+	}
+}
+
+.accessories_content {
+	display: block;
+	position: relative;
+	min-height: 600px;
+	background-color: black;
+	margin-top: 120px;
+}
+
+.accessories_first {
+	display: block;
+	padding-top: 100px;
+	min-height: 300px;
+	background-color: black;
+	position: relative;
+}
+
+.accessories_first h2 {
+	@extend %title-style;
+	width: 85%;
+	color: white;
+}
+
+.acc_descr_first {
+	color: white;
+	position: relative;
+	width: 450px;
+	padding: 20px 20px 20px 20px;
+	font-size: 19px;
+	margin-right: 30px;
+	border-right: 1px solid white;
+}
+
+.acc_descr_sec {
+	color: white;
+	position: relative;
+	width: 450px;
+	padding: 20px 20px 20px 20px;
+	font-size: 19px;
+	margin-right: 30px;
+	margin-left: 20px;
+	border-left: 1px solid white;
+}
+
+.acc_first_img {
+	display: block;
+	height: 550px;
+	width: 700px;
+	display: block;
+	margin-bottom: 30px;
+	background-image: url('../images/acc/acc_all_dev.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.acc_second {
+	display: block;
+	min-height: 400px;
+	border: 1px solid white;
+	background-color: white;
+	position: relative;
+	margin-top: 20px;
+}
+
+.acc_second h2 {
+	@extend %title-style;
+	color: black;
+	border-left: solid black;
+	margin-top: 50px;
+}
+
+.acc_second_p {
+	color: black;
+	font-size: 25px;
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.acc_sec_img {
+	display: block;
+	height: 700px;
+	width: 900px;
+	margin-top: 20px;
+	display: block;
+	margin-bottom: 30px;
+	background-image: url('../images/power_c.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.acc_first_descr {
+	width: 500px;
+	padding: 10px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	color: black;
+	font-size: 25px;
+	border-right: solid black;
+}
+
+.acc_sec_descr {
+	width: 500px;
+	padding: 10px 10px 10px 20px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+	font-size: 25px;
+	margin-left: 20px;
+	color: black;
+	border-left: solid black;
+}
+
+.acc_third {
+	display: block;
+	min-height: 400px;
+	background-color: black;
+	position: relative;
+	margin-top: 20px;
+}
+
+.acc_third h2 {
+	@extend %title-style;
+	border-left: solid white;
+	margin-top: 50px;
+}
+
+.acc_third_p {
+	color: white;
+	font-size: 25px;
+	margin-top: 50px;
+	width: 900px;
+	text-align: center;
+	padding-right: 20px;
+}
+
+.acc_third_img_div {
+	display: block;
+	height: 500px;
+	width: 1200px;
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	background-image: url('../images/acc/acc_sec_img.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.exp_self {
+	color: white;
+	font-size: 45px;
+	width: 700px;
+	padding: 20px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.exp_self_two {
+	color: white;
+	font-size: 25px;
+	width: 700px;
+	padding: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	border-left: solid white;
+}
+
+.acc_gray {
+	color: #A8A8A8;
+}
+
