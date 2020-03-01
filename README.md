@@ -1,6 +1,6 @@
 ## eCommerceMobile
 
-![eCommMobileImage](http://ionutdev.com/static/media/miniEcomMobile.33138249.png)
+![eCommMobileImage](https://raw.githubusercontent.com/SIonut0122/eCommerceMobile/gh-pages/static/media/ecommmobile.png)
 
 ## Test the app:
 
